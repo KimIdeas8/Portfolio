@@ -5,29 +5,20 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Little Lemon Restaurant Website | Built with React.js",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "A website app that is built to suit the needs of a fictional client persona, a restaurant. ",
+    getImageSrc: () => require("../images/photo1.png"),
+    url: "https://little-lemon-react-web-app.vercel.app/"
   },
   {
-    title: "React Infinite Scroll",
+    title: "Mangata & Gallo Website | Built purely using HTML & CSS",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "A website that is built to suit the needs of a fictional client persona, a jewellery retailer.",
+    getImageSrc: () => require("../images/photo2.png"),
+    url:"https://html-css-website-one.vercel.app/"
   },
-  {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-  },
-  {
-    title: "Event planner",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
-  },
+
 ];
 
 const ProjectsSection = () => {
@@ -53,6 +44,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            url={project.url}
           />
         ))}
       </Box>
