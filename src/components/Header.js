@@ -20,7 +20,7 @@ const socials = [
   },
   {
     icon: faLinkedin,
-    url: "www.linkedin.com/in/kimberley-tay",
+    url: "https://www.linkedin.com/in/kimberley-tay",
   },
 ];
 
