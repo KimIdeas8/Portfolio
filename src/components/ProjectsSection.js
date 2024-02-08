@@ -13,7 +13,7 @@ const projects = [
     isValidFramework: true,
     languages: "JavaScript ES6, HTML5, CSS",
     isValidLanguage: true,
-    libraries: "Formik, Yup, Chakra UI, font-awesome",
+    libraries: "Webpack, Babel, Formik, Yup, Chakra UI, font-awesome",
     isValidLibraries: true,
     url:"https://portfolio-ten-omega-67.vercel.app/"
   },
@@ -26,7 +26,7 @@ const projects = [
     isValidFramework: true,
     languages: "JavaScript ES6, HTML5, CSS",
     isValidLanguage: true,
-    libraries: "React Testing Library, Jest",
+    libraries: "Webpack, Babel, React Testing Library, Jest",
     isValidLibraries: true,
     url: "https://little-lemon-react-web-app.vercel.app/"
   },
@@ -39,7 +39,8 @@ const projects = [
     isValidFramework: true,
     languages: "JavaScript ES6, HTML5, CSS",
     isValidLanguage: true,
-    isValidLibraries: false,
+    libraries: "Webpack, Babel",
+    isValidLibraries: true,
     url:"https://calculator-react-app-indol.vercel.app/"
   },
   {
