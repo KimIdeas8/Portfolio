@@ -89,6 +89,7 @@ const Header = ({transform}) => {
           <nav>
             <HStack spacing={8}>
               <a href="/#projects-section" onClick={()=>handleClick("projects")}>Projects</a>
+              <a href="/#certs-section" onClick={()=>handleClick("certs")}>Certifications</a>
               <a href="/#contactme-section" onClick={()=>handleClick("contactme")}>Contact Me</a>
             </HStack>
           </nav>
