@@ -5,6 +5,18 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "Tomato Restaurant Website | Built using React.js",
+    description:
+      "A website that is built to manage online orders of the Tomato Restaurant.",
+    getImageSrc: () => require("../images/project5.png"),
+    framework: "React.js, Vite",
+    isValidFramework: true,
+    languages: "JavaScript ES6, HTML5, CSS",
+    isValidLanguage: true,
+    isValidLibraries: false,
+    url:"https://food-delivery-frontend-xi.vercel.app/"
+  },
+  {
     title: "Portfolio Website | Built with React.js",
     description:
       "A portfolio website that was developed to showcase my personal certifications and projects. Its the very website you are visiting right now.",
