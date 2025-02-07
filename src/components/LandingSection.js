@@ -21,8 +21,8 @@ const LandingSection = () => (
         <Heading as="h6" size='xs'>{greeting}</Heading>
       </VStack>
       <VStack spacing={5}>
-        <Heading as="h1">{bio1}</Heading>
-        <Heading as="h1">{bio2}</Heading>
+        <Heading as="h1" textAlign="center">{bio1}</Heading>
+        <Heading as="h1" textAlign="center">{bio2}</Heading>
       </VStack>
     </VStack>
   </FullScreenSection>

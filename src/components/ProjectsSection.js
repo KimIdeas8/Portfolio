@@ -75,16 +75,17 @@ const ProjectsSection = () => {
       backgroundColor="#edefee"
       color="black"
       isDarkBackground
-      p={8}
+      py={8}
+      px={2}
       alignItems="flex-start"
-      spacing={8}
+      spacing={0}
     >
-      <Heading as="h1" id="projects-section">
+      <Heading py={8} as="h1" id="projects-section">
         Featured Projects
       </Heading>
-      <Box
+      <Box 
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns="repeat(auto-fill,minmax(240px,1fr))"
         gridGap={8}
       >
         {projects.map((project) => (

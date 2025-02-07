@@ -18,7 +18,6 @@ function App() {
           <LandingSection />
           <ProjectsSection />
           <CertificationsSection/>
-          <ContactMeSection />
           <Footer />
           <Alert />
         </main>
