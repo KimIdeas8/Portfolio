@@ -5,6 +5,18 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "Taskify App | Built using React.js",
+    description: "An to-do list app built to keep track of tasks. Can edit, delete and mark as done any task.",
+    getImageSrc: ()=> require("../images/project6.jpg"),
+    framework: "React.js",
+    isValidFramework: true,
+    languages: "Typescript, HTML, CSS",
+    isValidLanguage: true,
+    libraries: "react-icons",
+    isValidLibraries: true,
+    url: "https://taskify-typescript-app.vercel.app"
+  },
+  {
     title: "Tomato Restaurant Website | Built using React.js",
     description:
       "A website that is built to manage online orders of the Tomato Restaurant.",
